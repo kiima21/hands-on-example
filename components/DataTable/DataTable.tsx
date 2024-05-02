@@ -79,7 +79,11 @@ const DataTable = ({ prefPopulationList }: Props) => {
   );
   const style = css`
     width: 100%;
+    width: 100%;
     height: 600px;
+    .MuiDataGrid-columnHeaders {
+      background-color: rgba(66, 165, 245, 0.12);
+    }
     .MuiDataGrid-columnHeaders {
       background-color: rgba(66, 165, 245, 0.12);
     }
